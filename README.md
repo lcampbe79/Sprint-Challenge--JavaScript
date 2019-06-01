@@ -30,13 +30,31 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+The biggest difference between  .map will go through the array and will return a new array  whereas .forEach  does not.
+
 2. What is the difference between a function and a method?
+
+The difference between function and method Functions are sections of code on the global scope between {} that can be called and run at any time. Methods are inside objects.
 
 3. What is closure?
 
+Closure is where you write a function inside a function so you are able to get the information back out. If you have a Grandparent, Parent and Child, the Child can see into both the Parent and Grandparent but not the other way around.
+
 4. Describe the four rules of the 'this' keyword.
 
+The four rules of .this are: 
+
+Default/Window binding- if nothing else is declared, the Window is by "default" It's a more "broad" binding.  
+
+Implicit binding is a "less broad",  when used this way, .this is referring to the objects to the left of the (.). 
+
+New binding (constructor function) creates and returns a new object.
+
+Explicit binding is the most detailed and leaves no room for confusion, you use .call() which calls the method and separated with a comma and .apply() is used for arrays.
+
 5. Why do we need super() in an extended class?
+
+super() is used in the extended (Child) class so that way the extended class (Child) can use the same objects as the previous (Parent) class.
 
 ## Project Set up
 
@@ -45,7 +63,7 @@ Follow these steps to set up and work on your project:
 - [X] Create a forked copy of this project.
 - [X] Clone your OWN version of Repo (Not Lambda's by mistake!).
 - [X] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+- [X] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
 - [X] You are now ready to build this project with your preferred IDE
 - [X] Implement the project on your Branch, committing changes regularly.
 - [X] Push commits: git push origin `<firstName-lastName>`.
