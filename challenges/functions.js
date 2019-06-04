@@ -41,6 +41,8 @@ consume("Mary","Poppins", greeting); // Hello Mary Poppins, nice to meet you!
 
 // Explanation: 
 
+//`nestedFunction() can accessthe variable `internal` since the function is inside the function. Functions can see out but not down (out).
+
 
 const external = "I'm outside the function";
 
